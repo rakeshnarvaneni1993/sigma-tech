@@ -1,0 +1,28 @@
+.navbar-brand{
+  font-size: 40px;
+}
+
+.list{
+  width: 100%;
+}
+ul li{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 1147px) {
+  .hamBurger{
+    position: relative;
+    left: 0;
+    top: 50%;
+  }
+  .navbar-brand{
+    width: 180px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .dropdown-menu::after {
+    content: none;
+  }
+
+}
