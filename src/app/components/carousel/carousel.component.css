@@ -15,3 +15,20 @@ img {
 .carousel{
   margin-top: 90px;
 }
+.message{
+  position:absolute;
+  z-index: 1;
+  /*border: 1px solid white;*/
+  width: 30em;
+  height: 10em;
+  text-align: center;
+  margin: 0 auto;
+  left: 23%;
+  top: 20%;
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  opacity: 0;
+  padding-top: 4%;
+}
