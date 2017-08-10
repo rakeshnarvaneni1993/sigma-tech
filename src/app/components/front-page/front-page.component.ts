@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FrontPageComponent implements OnInit {
 
+  front: number;
   constructor() { }
 
   ngOnInit() {
+    this.front = 5;
   }
 
 }

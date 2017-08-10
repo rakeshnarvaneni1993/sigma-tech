@@ -6,6 +6,9 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app.routing';
 import { FrontPageComponent } from './components/front-page/front-page.component';
+import { SiblingsToggleDirective } from './directives/siblings-toggle.directive';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { DataComponent } from './components/data/data.component';
 
 
 @NgModule({
@@ -13,7 +16,10 @@ import { FrontPageComponent } from './components/front-page/front-page.component
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    SiblingsToggleDirective,
+    CarouselComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,

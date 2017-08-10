@@ -1,0 +1,17 @@
+.jumbotron{
+  /*height: 10vh;*/
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  color: black;
+  background-color: black;
+  /*position: relative;*/
+  /*to/p: 50%;*/
+}
+img {
+  height: 35em;
+  width: 100%;
+}
+
+.carousel{
+  margin-top: 90px;
+}

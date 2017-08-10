@@ -1,0 +1,19 @@
+ul li{
+  list-style-type: none;
+}
+.settings{
+  height: 20%;
+}
+.container{
+  margin-top: 20px;
+}
+.whatWeDo{
+  height: 300px;
+  margin : 0 auto;
+  background-color: transparent;
+  text-align: center;
+}
+button{
+  margin: 0 auto;
+  border-radius: 9%;
+}
