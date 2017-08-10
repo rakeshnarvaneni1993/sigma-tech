@@ -1,6 +1,6 @@
 .navbar-brand{
   font-size: 40px;
-  color: blue;
+  color: #0088cc;
 }
 .navbar-light .navbar-nav .nav-link{
   color: #0088cc;
@@ -102,6 +102,9 @@ ul li{
   font-size: 30px;
   position: relative;
   left: 20%;
+}
+#mySidenav span{
+  color: gray;
 }
 #mySidenav span:hover {
   cursor: pointer;
