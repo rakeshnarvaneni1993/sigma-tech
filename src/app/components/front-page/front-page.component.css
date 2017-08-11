@@ -17,3 +17,51 @@ button{
   margin: 0 auto;
   border-radius: 9%;
 }
+#facebook{
+  position:fixed;
+  right:0;
+  top:59%;
+  background-color: #3b5998;
+  width:70px;
+  height:30px;
+  text-align: center;
+  transition: width 0.2s;
+}
+#facebook:hover{
+  width:80px;
+}
+#instagram{
+  position:fixed;
+  right:0;
+  top:54.5%;
+  background-color: #8a3ab9;
+  width:70px;
+  height:30px;
+  text-align: center;
+  transition: width 0.2s;
+}
+#instagram:hover{
+  width:80px;
+}
+#twitter{
+  position:fixed;
+  right:0;
+  top:50%;
+  background-color: #1dcaff;
+  width:70px;
+  height:30px;
+  text-align: center;
+  transition: width 0.2s;
+}
+#twitter:hover{
+  width:80px;
+  /*height:24px;*/
+}
+.fa{
+  color: white;
+}
+@media screen and (max-width:600px)  {
+  .social{
+    visibility: hidden;
+  }
+}

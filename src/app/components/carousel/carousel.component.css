@@ -3,32 +3,26 @@
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
   color: black;
-  background-color: black;
+  background-color: #0088cc;
   /*position: relative;*/
   /*to/p: 50%;*/
 }
 img {
-  height: 35em;
+  height: 45em;
   width: 100%;
 }
 
 .carousel{
-  margin-top: 90px;
+height: 45em;
 }
-.message{
-  position:absolute;
-  z-index: 1;
-  /*border: 1px solid white;*/
-  width: 30em;
-  height: 10em;
-  text-align: center;
-  margin: 0 auto;
-  left: 23%;
-  top: 20%;
-  color: white;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bolder;
+.message {
+  position:    absolute;
+  bottom:      13em;
+  left: 18em;
+  font-size:   150%;
+  color:       #fff;
+  padding:     0 20px;
+  width:       40%;
   opacity: 0;
-  padding-top: 4%;
+  text-align: center;
 }
