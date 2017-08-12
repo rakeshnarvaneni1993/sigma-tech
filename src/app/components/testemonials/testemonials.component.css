@@ -1,0 +1,20 @@
+h2{
+  text-align: center;
+}
+.row{
+  background-color: #cbced3;
+}
+.message{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 30px #000;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+.testimonial{
+  padding: 30px;
+}
+.name{
+  margin-top: 20px;
+}

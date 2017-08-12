@@ -13,6 +13,7 @@ img {
 }
 
 .carousel{
+  /*position: fixed;*/
 height: 45em;
 }
 .message {
