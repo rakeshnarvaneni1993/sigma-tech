@@ -9,6 +9,8 @@ import { FrontPageComponent } from './components/front-page/front-page.component
 import { SiblingsToggleDirective } from './directives/siblings-toggle.directive';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { DataComponent } from './components/data/data.component';
+import { TestemonialsComponent } from './components/testemonials/testemonials.component';
+import { CaseStudiesComponent } from './components/case-studies/case-studies.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { DataComponent } from './components/data/data.component';
     FrontPageComponent,
     SiblingsToggleDirective,
     CarouselComponent,
-    DataComponent
+    DataComponent,
+    TestemonialsComponent,
+    CaseStudiesComponent
   ],
   imports: [
     BrowserModule,
