@@ -12,7 +12,6 @@ export class NavBarComponent implements OnInit {
   ngOnInit() {
   }
 openNav() {
-    console.log('Heyyy')
   $("#mySidenav").css('width', '250px');
   $("#main").css('marginLeft', '250px');
 

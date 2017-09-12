@@ -8,17 +8,17 @@
   /*to/p: 50%;*/
 }
 img {
-  height: 45em;
+  height: 32em;
   width: 100%;
 }
 
 .carousel{
   /*position: fixed;*/
-height: 45em;
+height: 32em;
 }
 .message {
   position:    absolute;
-  bottom:      13em;
+  bottom:      7em;
   left: 18em;
   font-size:   150%;
   color:       #fff;

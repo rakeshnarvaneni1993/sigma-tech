@@ -7,7 +7,7 @@
           (click)="openNav()">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="newNav" id="navbarNavDropdown">
+  <div class="newNav navbar-toggler-right" id="navbarNavDropdown">
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
       <a href="#">Home</a>
@@ -57,17 +57,18 @@
 
     </div>
   </div>
+
   <a class="navbar-brand" href="#">SigmaSoft</a>
-  <div class="collapse navbar-collapse">
+  <div class="collapse navbar-collapse pull-right">
     <ul class="navbar-nav list">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropLink" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
-        <div class="dropdown-menu">
+        <div class="drop">
           <a class="dropdown-item" href="#">Software Development</a>
           <a class="dropdown-item" href="#">Application Support</a>
           <a class="dropdown-item" href="#">Software Solution</a>
@@ -114,14 +115,15 @@
           <a class="dropdown-item" href="#">Contact Us</a>
         </div>
       </li>
-      <li class="search pull-right">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for...">
-          <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-        </div><!-- /input-group -->
-      </li>
+      <!--------------Search Bar ---------------------------- !>
+      <!--<li class="search pull-right">-->
+        <!--<div class="input-group">-->
+          <!--<input type="text" class="form-control" placeholder="Search for...">-->
+          <!--<span class="input-group-btn">-->
+        <!--<button class="btn btn-default" type="button">Go!</button>-->
+      <!--</span>-->
+        <!--</div>&lt;!&ndash; /input-group &ndash;&gt;-->
+      <!--</li>-->
     </ul>
   </div>
 </nav>
