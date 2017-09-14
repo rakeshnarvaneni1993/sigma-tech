@@ -1,0 +1,101 @@
+<div class="jumbotron">
+</div>
+
+
+<h1>Contact Details</h1>
+<ul>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>USA Office</h2>
+    <div class="row">
+    <div class="col-md-4">
+      104 Bayard St,<br>
+      5th Floor, Suite 2 <br>
+      New Brunswick, NJ 08901 <br>
+    </div>
+    <div class="col-md-8">
+      <agm-map [latitude]="lat" [longitude]="lng" ZoomControlStyle="SMALL">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+      </agm-map>
+    </div>
+    </div>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Indian Office</h2>
+    <div class="row">
+      <div class="col-md-4">
+        HNO 1-40-17/2, <br>
+        1st floor, Rajnagar colony, <br>
+        Uppal, Hyderabad 500039 <br>     </div>
+      <div class="col-md-8">
+        <agm-map [latitude]="lat1" [longitude]="lng1" ZoomControlStyle="SMALL">
+          <agm-marker [latitude]="lat1" [longitude]="lng1"></agm-marker>
+        </agm-map>
+      </div>
+    </div>
+  </li>
+  <li>
+    <input type="checkbox" checked>
+    <i></i>
+    <h2>Corporate Office</h2>
+    <div class="row">
+      <div class="col-md-4">
+        12200 Ford RD <br>
+        Ste 272 <br>
+        Dallas TX 75234
+      </div>
+      <div class="col-md-8">
+        <agm-map [latitude]="lat2" [longitude]="lng2" ZoomControlStyle="SMALL">
+          <agm-marker [latitude]="lat2" [longitude]="lng2"></agm-marker>
+        </agm-map>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<h1>Get in Touch with US</h1>
+
+<form (ngSubmit) = 'save2(form)' #form = 'ngForm'>
+  <input class="form-control"
+         ngModel
+         type="text"
+         id="name"
+         name="name"
+         placeholder="Enter Your Full Name: ">
+
+  <div class="row col-md-12">
+    <!--<label for="email">Enter Your Email Address: </label>-->
+    <input class="form-control col-md-5"
+           type="text"
+           id="phone"
+           ngModel
+           name="phone"
+           placeholder="Enter Your Phone Number:"><br>
+    <div class="col-md-2"></div>
+    <input class="form-control col-md-5"
+           type="email"
+           id="email"
+           ngModel
+           name="email"
+           placeholder="Enter Your Email Address:"><br>
+  </div>
+  <br>
+  <input class="form-control"
+         ngModel
+         type="text"
+         id="subject"
+         name="subject"
+         placeholder="Enter the subject of your query: "><br>
+  <textarea rows="4" cols="50"
+            class="form-control"
+            ngModel
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Enter the Message: ">
+  </textarea> <br><br>
+  <button type='button' type='submit' class="btn btn-primary">Save</button>
+</form>

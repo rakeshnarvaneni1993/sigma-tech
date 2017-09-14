@@ -50,7 +50,7 @@
           <a href="#"><li>Partners</li></a>
           <a href="#"><li>Clients</li></a>
           <a href="#"><li>Careers</li></a>
-          <a href="#"><li>Contact Us</li></a>
+          <a [routerLink]="['/contact']"><li>Contact Us</li></a>
 
         </div>
       </ul>
@@ -65,10 +65,10 @@
         <a class="nav-link" href="#">Home</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropLink" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
-        <div class="drop">
+        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Software Development</a>
           <a class="dropdown-item" href="#">Application Support</a>
           <a class="dropdown-item" href="#">Software Solution</a>
@@ -78,7 +78,7 @@
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Solutions
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Business Intelligence</a>
           <a class="dropdown-item" href="#">Enterprise Solutions</a>
           <a class="dropdown-item" href="#">Mobility Solutions</a>
@@ -88,7 +88,7 @@
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Products
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">I HealthX</a>
           <a class="dropdown-item" href="#">Zopho</a>
         </div>
@@ -97,7 +97,7 @@
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Resources
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Blog</a>
           <a class="dropdown-item" href="#">Case Studies</a>
           <a class="dropdown-item" href="#">News and Events</a>
@@ -107,12 +107,12 @@
         <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Company
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">About Us</a>
           <a class="dropdown-item" href="#">Partners</a>
           <a class="dropdown-item" href="#">Clients</a>
           <a class="dropdown-item" href="#">Careers</a>
-          <a class="dropdown-item" href="#">Contact Us</a>
+          <a class="dropdown-item" [routerLink]="['/contact']">Contact Us</a>
         </div>
       </li>
       <!--------------Search Bar ---------------------------- !>

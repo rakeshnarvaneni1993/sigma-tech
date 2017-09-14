@@ -1,6 +1,3 @@
-nav{
-  border-bottom: 4px solid #0088cc;
-}
 .navbar-brand{
   font-size: 40px;
   color: #0088cc;
@@ -12,17 +9,12 @@ nav{
 }
 .list{
   width: 100%;
+  margin-bottom: -38px;
 }
 ul li{
   margin-left: 10px;
   margin-right: 10px;
-}
-.drop{
-  position: absolute;
-  border: 1px solid #0088cc;
-  display: none;
-  top: 65px;
-
+  margin-bottom: 0;
 }
 .newNav{
   float: left;
@@ -52,7 +44,20 @@ ul li{
 
 }
 
-/* --------------------------------------------------- */
+.dropdown:hover .dropdown-menu{
+  display: block;
+  /*border-top: 4px solid #0088cc;*/
+}
+.nav-link{
+  border-bottom: 4px solid white;
+}
+.dropdown-menu{
+  font-size: 20px;
+  display: none;
+}
+
+
+/* --------------------------------------------------- ----------------------*/
 
 .sidenav {
   height: 100%;
