@@ -8,13 +8,13 @@
   /*to/p: 50%;*/
 }
 img {
-  height: 37.5em;
+  height: 100%;
   width: 100%;
 }
 
 .carousel{
   /*position: fixed;*/
-  height: 37.5em;
+  height: 100%;
 }
 .message {
   position:    absolute;

@@ -1,9 +1,12 @@
 .navbar-brand{
-  font-size: 40px;
-  color: #0088cc;
+    height: 3.9em;
+  position: relative;
+  top: 25px;
+  color: #0a3f67;
 }
+
 .navbar-light .navbar-nav .nav-link{
-  color: #0088cc;
+  color: #0a3f67;
   text-transform: uppercase;
   font-weight: bolder;
 }
@@ -11,10 +14,11 @@
   width: 100%;
   margin-bottom: -38px;
 }
+ul{
+  margin-left: 200px;
+}
 ul li{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 0;
+  margin: 20px;
 }
 .newNav{
   float: left;
@@ -46,6 +50,7 @@ ul li{
 
 .dropdown:hover .dropdown-menu{
   display: block;
+  color: #0a3f67;
   /*border-top: 4px solid #0088cc;*/
 }
 .nav-link{
@@ -55,7 +60,23 @@ ul li{
   font-size: 20px;
   display: none;
 }
-
+.dropdown-item{
+  color: #0a3f67;
+}
+.changeLogo{
+  height: 54%;
+}
+.changeLogoOut{
+  position: relative;
+  top: 16px;
+}
+.scrollNav{
+  height: 8%;
+}
+.scrollMenu{
+  position: relative;
+  top: -22px;
+}
 
 /* --------------------------------------------------- ----------------------*/
 
@@ -101,6 +122,20 @@ ul li{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+  .scrollNav {
+    height: 30% !important;
+  }
+  .changeLogo{
+    height: 100% !important;
+  }
+  .scrollMenu{
+    position: static !important;
+  }
+  .changeLogoOut{
+    position: static;
+    top: auto;
+  }
 }
 .services{
   display: none;

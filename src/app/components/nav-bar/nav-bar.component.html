@@ -1,4 +1,5 @@
-<nav class="navbar navbar-toggleable-lg navbar-light bg-faded fixed-top">
+<nav [ngClass]="{'scrollNav': logo}"
+     class="navbar navbar-toggleable-lg navbar-light bg-faded fixed-top">
   <button class="hamBurger navbar-toggler navbar-toggler-right"
           type="button" data-toggle="collapse"
           data-target="#navbarNavDropdown"
@@ -57,10 +58,16 @@
 
     </div>
   </div>
-
-  <a class="navbar-brand" href="#">SigmaSoft</a>
+<!--<div>-->
+  <a class="navbar-brand"
+     [ngClass]="{'changeLogoOut': logo}"
+     href="#">
+    <img
+     [ngClass]="{'changeLogo': logo}"
+    src="./../../../assets/logo.jpg" alt="">
+  </a>
   <div class="collapse navbar-collapse pull-right">
-    <ul class="navbar-nav list">
+    <ul [ngClass]="{'scrollMenu': logo}" class="navbar-nav list">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</a>
       </li>
@@ -69,19 +76,12 @@
           Services
         </a>
         <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Software Development</a>
-          <a class="dropdown-item" href="#">Application Support</a>
-          <a class="dropdown-item" href="#">Software Solution</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Solutions
-        </a>
-        <div appBorderBottomHover class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Business Intelligence</a>
           <a class="dropdown-item" href="#">Enterprise Solutions</a>
           <a class="dropdown-item" href="#">Mobility Solutions</a>
+          <a class="dropdown-item" [routerLink]="['/software-development']">Software Development</a>
+          <a class="dropdown-item" [routerLink]="['/application-support']">Application Support</a>
+          <a class="dropdown-item" href="#">Software Solution</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -126,4 +126,5 @@
       <!--</li>-->
     </ul>
   </div>
+<!--</div>-->
 </nav>

@@ -16,6 +16,9 @@ import { CaseStudiesComponent } from './components/case-studies/case-studies.com
 import { BorderBottomHoverDirective } from './directives/border-bottom-hover.directive';
 import { ContactComponent } from './components/contact/contact.component';
 import {FormsModule} from "@angular/forms";
+import { ScrollDirective } from './directives/scroll.directive';
+import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
+import { ApplicationSupportComponent } from './components/application-support/application-support.component';
 
 
 @NgModule({
@@ -30,7 +33,10 @@ import {FormsModule} from "@angular/forms";
     TestemonialsComponent,
     CaseStudiesComponent,
     BorderBottomHoverDirective,
-    ContactComponent
+    ContactComponent,
+    ScrollDirective,
+    SoftwareDevelopmentComponent,
+    ApplicationSupportComponent
   ],
   imports: [
     BrowserModule,

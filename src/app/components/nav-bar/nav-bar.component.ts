@@ -7,9 +7,16 @@ declare var $: any;
 })
 export class NavBarComponent implements OnInit {
 
+logo = false;
   constructor() { }
-
   ngOnInit() {
+    window.addEventListener('scroll', (e) => {
+      if (window.pageYOffset > 60) {
+        this.logo = true;
+      } else {
+        this.logo = false;
+      }
+    });
   }
 openNav() {
   $("#mySidenav").css('width', '250px');
