@@ -1,0 +1,24 @@
+.jumbotron{
+//background-color: #7f8c8d;
+  height: 15em;
+  background-image: url("./../../../assets/solutions.jpg");
+}
+.maintain{
+  width: 80%;
+  height: 50%;
+}
+h1, h3{
+  display: flex;
+  justify-content: center;
+  color: #0a3f67;
+  font-family: 'Roboto', sans-serif;
+
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+.container{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}

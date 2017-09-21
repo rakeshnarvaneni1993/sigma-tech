@@ -19,6 +19,10 @@ import {FormsModule} from "@angular/forms";
 import { ScrollDirective } from './directives/scroll.directive';
 import { SoftwareDevelopmentComponent } from './components/software-development/software-development.component';
 import { ApplicationSupportComponent } from './components/application-support/application-support.component';
+import { SoftwareSolutionsComponent } from './components/software-solutions/software-solutions.component';
+import { BusinessIntelligenceComponent } from './components/business-intelligence/business-intelligence.component';
+import { EnterpriseSolutionsComponent } from './components/enterprise-solutions/enterprise-solutions.component';
+import { MobilitySolutionsComponent } from './components/mobility-solutions/mobility-solutions.component';
 
 
 @NgModule({
@@ -36,7 +40,11 @@ import { ApplicationSupportComponent } from './components/application-support/ap
     ContactComponent,
     ScrollDirective,
     SoftwareDevelopmentComponent,
-    ApplicationSupportComponent
+    ApplicationSupportComponent,
+    SoftwareSolutionsComponent,
+    BusinessIntelligenceComponent,
+    EnterpriseSolutionsComponent,
+    MobilitySolutionsComponent
   ],
   imports: [
     BrowserModule,
