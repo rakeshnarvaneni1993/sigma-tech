@@ -4,7 +4,6 @@ import { AgmCoreModule } from './../../node_modules/@agm/core';
 
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AppRoutingModule } from './app.routing';
 import { FrontPageComponent } from './components/front-page/front-page.component';
@@ -23,12 +22,13 @@ import { SoftwareSolutionsComponent } from './components/software-solutions/soft
 import { BusinessIntelligenceComponent } from './components/business-intelligence/business-intelligence.component';
 import { EnterpriseSolutionsComponent } from './components/enterprise-solutions/enterprise-solutions.component';
 import { MobilitySolutionsComponent } from './components/mobility-solutions/mobility-solutions.component';
+import { CareersComponent } from './components/careers/careers.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     FooterComponent,
     FrontPageComponent,
     SiblingsToggleDirective,
@@ -44,7 +44,9 @@ import { MobilitySolutionsComponent } from './components/mobility-solutions/mobi
     SoftwareSolutionsComponent,
     BusinessIntelligenceComponent,
     EnterpriseSolutionsComponent,
-    MobilitySolutionsComponent
+    MobilitySolutionsComponent,
+    CareersComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

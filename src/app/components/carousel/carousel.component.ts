@@ -7,12 +7,8 @@ declare var $:any;
 })
 export class CarouselComponent implements OnInit{
 
-  constructor(){
+  constructor() {
   }
 
-  ngOnInit(){
-    $('.message').animate({
-      'opacity':'1'
-    },2000)
-  }
+  ngOnInit() {}
 }

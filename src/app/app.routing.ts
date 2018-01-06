@@ -8,6 +8,7 @@ import {SoftwareSolutionsComponent} from "./components/software-solutions/softwa
 import {BusinessIntelligenceComponent} from "./components/business-intelligence/business-intelligence.component";
 import {EnterpriseSolutionsComponent} from "./components/enterprise-solutions/enterprise-solutions.component";
 import {MobilitySolutionsComponent} from "./components/mobility-solutions/mobility-solutions.component";
+import {CareersComponent} from "./components/careers/careers.component";
 
 const appRoutes: Routes = [
   { path: 'front-page', component: FrontPageComponent },
@@ -18,6 +19,7 @@ const appRoutes: Routes = [
   { path: 'services/business-intelligence', component: BusinessIntelligenceComponent },
   { path: 'services/enterprise-solutions', component:   EnterpriseSolutionsComponent},
   { path: 'services/mobility-solutions', component:   MobilitySolutionsComponent},
+  { path: 'company/careers', component:   CareersComponent},
   { path: '', redirectTo: 'front-page', pathMatch: 'full' },
 ];
 
