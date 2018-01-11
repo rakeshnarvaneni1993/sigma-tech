@@ -25,6 +25,26 @@ a{
   background-color: #9db2c2;
   color: white;
 }
+
+i{
+  font-size: 25px;
+  margin-right: 5px;
+  color: #0a3f67;
+}
+.topOfNav{
+  padding-top: 5px;
+}
+.topMenu{
+  margin-left: 3px;
+  text-decoration: none;
+  color: #0a3f67;
+}
+
+.topMenu a{
+  text-decoration: none;
+  color: #0a3f67;
+
+}
 /********************************************************************/
 
 
@@ -32,5 +52,8 @@ a{
   .navbar-nav > li{
     padding-left: 0;
     padding-right: 0;
+  }
+  .topOfNav{
+   display: none;
   }
 }

@@ -6,3 +6,6 @@ img {
 .carousel{
   height: 100%;
 }
+.carousel-caption{
+  /*margin-bottom: 10%;*/
+}
