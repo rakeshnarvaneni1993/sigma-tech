@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareersComponent implements OnInit {
 
+  isJobsListOpen = false;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  openListOfJobs() {
+    this.isJobsListOpen = !this.isJobsListOpen
   }
 
 }

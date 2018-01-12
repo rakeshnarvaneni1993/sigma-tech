@@ -1,20 +1,37 @@
-.jumbotron{
-//background-color: #7f8c8d;
-  height: 20em;
-  background-image: url("./../../../assets/careers.jpg");
+.jumbotron-fluid{
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  /*text-align: center;*/
 }
-h1, h3{
-  display: flex;
-  justify-content: center;
-  color: #0a3f67;
-  font-family: 'Roboto', sans-serif;
+#carouselContainer{
+  padding: 15px;
+}
+.experienceInfinitePossibilities{
+  padding: 15px
+}
+.accordian{
+  background-color: #0a3f67;
+  color: white;
+  border-radius: 20px;
+}
 
+.accordianForJobPosting{
+  background-color: transparent;
+  color: black;
 }
-p{
-  font-family: 'Roboto', sans-serif;
-  line-height: 2;
+.openingsList{
+  display: none;
 }
-.container{
-  margin-top: 5%;
-  margin-bottom: 10%;
+.openingsListOpen{
+  display: block;
+}
+ul, ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+i{
+  margin-top: 6px
 }
