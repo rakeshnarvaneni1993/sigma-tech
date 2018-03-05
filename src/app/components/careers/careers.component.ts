@@ -8,13 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class CareersComponent implements OnInit {
 
   isJobsListOpen = false;
-  constructor() { }
+  constructor() { };
+  toggle = {};
 
   ngOnInit() {
   }
 
   openListOfJobs() {
     this.isJobsListOpen = !this.isJobsListOpen
+  }
+  toggleJDSymbol(event) {
+    console.log(event)
   }
 
 }

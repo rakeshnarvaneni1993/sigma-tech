@@ -1,8 +1,8 @@
-<div class="jumbotron-fluid">
-  <div class="container">
-    Careers
-  </div>
-</div>
+<!--<div class="jumbotron-fluid">-->
+  <!--<div class="container">-->
+    <!--Careers-->
+  <!--</div>-->
+<!--</div>-->
 
 <div class="wrapper">
   <div class="container">
@@ -35,9 +35,9 @@
         <div>
           <h5>Experience Infinite Possibilities</h5>
 
-          <p>Give your career an Infinite edge, with a stimulating environment and a global work culture. You will find that taking pride in the work you do comes naturally at Infinite, with our focus on nurturing a workforce that is diverse, integrated and aligned to a common purpose: delivering excellence, consistently.</p>
+          <p>Give your career an edge, with a stimulating environment and a global work culture. You will find that taking pride in the work you do comes naturally at Infinite, with our focus on nurturing a workforce that is diverse, integrated and aligned to a common purpose: delivering excellence, consistently.</p>
 
-          <h5>Why Infinite?</h5>
+          <h5>Why Sigma?</h5>
           <p>We foster an environment where integrity, intellect and innovation are constants. We achieve this with the values every Infinitian lives by.</p>
         </div>
       </div>
@@ -45,7 +45,7 @@
 
     <div class="openings">
       <div class="accordian" (click)="openListOfJobs()">
-        <div class="row">
+        <div class="row openings-text">
           <p class="col-md-6 offset-md-2">View Openings</p>
           <i class="fa fa-plus col-md-3"
              [ngClass]="{'fa-minus': isJobsListOpen}"
@@ -57,11 +57,11 @@
         <ul>
           <li>
             <div class="accordianForJobPosting">
-              <div class="row">
+              <div class="row" (click)="toggle[1] = !toggle[1]">
                 <p class="col-md-6 offset-md-2"><strong>Software Engineer</strong></p>
-                <i class="fa fa-plus col-md-3" aria-hidden="true"></i>
+                <i class="fa col-md-3" [ngClass]="toggle[1] ? 'fa-minus': 'fa-plus'" aria-hidden="true"></i>
               </div>
-              <div class="col-md-6 offset-md-2 jd">
+              <div class="col-md-6 offset-md-2 jd" *ngIf="toggle[1]">
                 <p>Sigma is seeking a Software Engineers to perform the following duties: analyzes business users’ needs and then designs, develops, codes and tests software to meet those needs using expertise in Java/J2EE and related technologies. Gathers requirements, interacts with business users, and transforms requirements into functional specifications. Designs or customizes software for client use with the aim of optimizing operational efficiency. May analyze and design databases within an application area individually or as part of a team.</p>
 
                 <p>The position will report to our Dallas, TX office and requires travel to unanticipated locations throughout the U.S. to work on short-term and long-term projects.</p>
@@ -74,11 +74,11 @@
           </li>
           <li>
             <div class="accordianForJobPosting">
-              <div class="row">
+              <div class="row" (click)="toggle[2] = !toggle[2]">
                 <p class="col-md-6 offset-md-2"><strong>Programmer Analyst</strong></p>
-                <i class="fa fa-plus col-md-3" aria-hidden="true"></i>
+                <i class="fa fa-plus col-md-3" [ngClass]="toggle[2] ? 'fa-minus': 'fa-plus'" aria-hidden="true"></i>
               </div>
-              <div class="col-md-6 offset-md-2 jd">
+              <div class="col-md-6 offset-md-2 jd" *ngIf="toggle[2]">
                 <p>Sigma is seeking a Software Engineers to perform the following duties: analyzes business users’ needs and then designs, develops, codes and tests software to meet those needs using expertise in Java/J2EE and related technologies. Gathers requirements, interacts with business users, and transforms requirements into functional specifications. Designs or customizes software for client use with the aim of optimizing operational efficiency. May analyze and design databases within an application area individually or as part of a team.</p>
 
                 <p>The position will report to our Dallas, TX office and requires travel to unanticipated locations throughout the U.S. to work on short-term and long-term projects.</p>
@@ -91,11 +91,11 @@
           </li>
           <li>
             <div class="accordianForJobPosting">
-              <div class="row">
+              <div class="row" (click)="toggle[3] = !toggle[3]">
                 <p class="col-md-6 offset-md-2"><strong>ETL Development</strong></p>
-                <i class="fa fa-plus col-md-3" aria-hidden="true"></i>
+                <i class="fa fa-plus col-md-3" [ngClass]="toggle[3] ? 'fa-minus': 'fa-plus'" aria-hidden="true"></i>
               </div>
-              <div class="col-md-6 offset-md-2 jd">
+              <div class="col-md-6 offset-md-2 jd" *ngIf="toggle[3]">
                 <p>Sigma is seeking a Software Engineers to perform the following duties: analyzes business users’ needs and then designs, develops, codes and tests software to meet those needs using expertise in Java/J2EE and related technologies. Gathers requirements, interacts with business users, and transforms requirements into functional specifications. Designs or customizes software for client use with the aim of optimizing operational efficiency. May analyze and design databases within an application area individually or as part of a team.</p>
 
                 <p>The position will report to our Dallas, TX office and requires travel to unanticipated locations throughout the U.S. to work on short-term and long-term projects.</p>

@@ -1,9 +1,5 @@
-.jumbotron-fluid{
-  background-color: gray;
-  color: white;
-  padding: 20px;
-  font-size: 24px;
-  /*text-align: center;*/
+.wrapper{
+  margin-bottom: 50px;
 }
 #carouselContainer{
   padding: 15px;
@@ -34,4 +30,7 @@ ul, ul li{
 }
 i{
   margin-top: 6px
+}
+.openings-text{
+  padding-top: 10px;
 }

@@ -24,6 +24,7 @@ import { EnterpriseSolutionsComponent } from './components/enterprise-solutions/
 import { MobilitySolutionsComponent } from './components/mobility-solutions/mobility-solutions.component';
 import { CareersComponent } from './components/careers/careers.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { AboutInHomepageComponent } from './components/about-in-homepage/about-in-homepage.component';
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     EnterpriseSolutionsComponent,
     MobilitySolutionsComponent,
     CareersComponent,
-    NavBarComponent
+    NavBarComponent,
+    AboutInHomepageComponent
   ],
   imports: [
     BrowserModule,
